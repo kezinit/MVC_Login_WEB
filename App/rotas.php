@@ -28,7 +28,7 @@ switch($url)
 
 
     case '/':
-        echo "página inicial";
+        header('Location: View/modules/menu.php');
     break;
 
 
